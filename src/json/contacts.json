@@ -1,0 +1,10 @@
+[
+    {
+        "name":"linkedin",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+    },
+    {
+        "name":"github",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+    }
+]

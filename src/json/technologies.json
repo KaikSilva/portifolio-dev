@@ -1,0 +1,38 @@
+[
+    {
+        "name":"nodejs",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        "title":"Experiencia com NodeJS",
+        "description": "Experiência sólida em construir aplicações de rede rápidas e escaláveis usando JavaScript do lado do servidor."
+    },
+    {
+        "name":"react",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "title":"Experiencia com ReactJs",
+        "description": "Desenvolvimento de interfaces de usuário interativas e dinâmicas para páginas web, proporcionando experiências envolventes aos usuários."
+    },
+    {
+        "name":"php",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg",
+        "title":"Experiencia com PHP",
+        "description": "Domínio da linguagem de script do lado do servidor para criar aplicações web robustas e eficientes."
+    },
+    {
+        "name":"laravel",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg",
+        "title":"Experiencia com o Framework Laravel",
+        "description": "Utilização das poderosas funcionalidades do Framework Laravel para criar aplicativos PHP escaláveis."
+    },
+    {
+        "name":"Ubuntu & CentOS7",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+        "title":"Ubuntu & CentOS7",
+        "description": "Experiência prática em sistemas operacionais Linux, incluindo Ubuntu e CentOS7, para hospedar e gerenciar aplicações com estabilidade e segurança."
+    },
+    {
+        "name":"Mysql",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+        "title":"Experiencia com Mysql",
+        "description": "Ampla experiência no uso do MySQL para armazenar e gerenciar dados de forma eficiente, garantindo integridade e segurança das informações."
+    }
+]

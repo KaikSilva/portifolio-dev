@@ -1,0 +1,28 @@
+html.light, html:not(.dark):not(.light){
+
+    body{
+        background-color: #fff;
+        color: #3c3c43bf;
+    }
+
+    .bgPrimary{
+        background-color: var(--bg-primary-light);
+    }
+
+    .titleColor{
+        color: #3c3c43;
+    }
+
+    ::-webkit-scrollbar {
+        width: 8px; /* Largura do scroll */
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #00000028;
+        border-radius: 2px;
+    }
+
+    img{
+        filter: invert(0)!important;
+    }
+}
