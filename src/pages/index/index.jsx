@@ -4,17 +4,25 @@ import Header from "../../components/Header";
 import AboutMe from "../../components/AboutMe";
 import Contact from "../../components/Contact";
 import Technologies from "../../components/Technologies";
+import ProviderToast from "../../components/Toast";
 
 // -- Json
 import configPage from "../../json/page.config.json"
 
 // -- Styles
 import style from "./style.module.scss";
+import ContactForm from "../../components/ContactForm";
+import Experience from "../../components/Experience";
+import Formation from "../../components/Formation";
+import Title from "../../components/Title";
+import ButtonToTop from "../../components/ButtonToTop";
 
 
 function Portifolio(){
     return (
         <>
+            <ProviderToast/>
+
             {/** Header section */}
             <section>
                 <Col sm={12}>
@@ -43,23 +51,41 @@ function Portifolio(){
                 </Container>
             </section>
 
-
             {/** Technologies section */}
             <section id="technologies" className="pb-5">
                 <Container className={style.technologies}>
                     <Technologies/>
                 </Container>
             </section>
-
-
+            
             {/** About me section */}
             <section id="moreabout">
                 <Container className={style.technologies}>
                     <AboutMe />
                 </Container>
             </section>
+             
+            {/** My Experience and Formation section */}
+            <section id="ExperienceAndFormation">
+                <Container className={style.technologies}>
+                <Title title={"Expêriencias & Formações"} subTitle={"Minhas expêriencia no mercado de trabalho e minhas formações academicas"}/>
+                    <Row className="d-flex ">
+                        <Experience /> {/** & **/} <Formation />
+                    </Row>
+                </Container>
+            </section>
 
-            <div className={`p-4 ${style.divBackgroundGradient}`} />
+            {/** Technologies section */}
+            <section id="contact" className="pb-5">
+                <Container className={style.technologies}>
+                    <ContactForm/>
+                </Container>
+            </section>
+            
+            {/** Button to top */}
+            <ButtonToTop />
+             
+            <div className={`p-5 ${style.divBackgroundGradient}`} />
         </>
     )
 }

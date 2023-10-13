@@ -14,8 +14,8 @@ function Header(){
                         <div className={style.nav__header__list}> 
                             <a className={`${style.nav__header__list__items} titleColor`} href="#technologies">Tecnologias</a>
                             <a className={`${style.nav__header__list__items} titleColor`} href="#">Projetos</a>
-                            <a className={`${style.nav__header__list__items} titleColor`} href="#">Experiência</a>
-                            <a className={`${style.nav__header__list__items} titleColor`} href="#">Contato</a>
+                            <a className={`${style.nav__header__list__items} titleColor`} href="#ExperienceAndFormation">Experiência & formações</a>
+                            <a className={`${style.nav__header__list__items} titleColor`} href="#contact">Contato</a>
                             <a className={`${style.nav__header__list__items} titleColor`} href="#moreabout">Sobre mim</a>   
                         </div>
                         <div className={style.nav__header__themeOptions}>

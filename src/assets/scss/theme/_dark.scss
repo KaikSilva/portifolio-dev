@@ -25,4 +25,34 @@ html.dark{
         background-color: #ffffff28;
         border-radius: 2px;
     }
+
+    input.form-control,
+    textarea.form-control{
+        background-color: #1b1b1f;
+        color: #ebebf599;
+        border-color: #1b1b1f;
+        padding: 13px;
+        font-size: 13px;
+        box-shadow: none;
+        transition: border 0.2s ease-in-out;
+
+        &:focus{
+            border-color: #6f0ca09c!important;
+            box-shadow: none;
+        }
+    }
+    
+    ::placeholder {
+        font-size: 13px!important;
+    }
+
+    .Toastify__toast-body{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .Toastify__toast--error,
+    .Toastify__toast--success{
+        background-color: #1b1b1f;
+    }
 }
