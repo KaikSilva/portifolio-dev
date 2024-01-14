@@ -5,6 +5,9 @@ import AboutMe from "../../components/AboutMe";
 import Contact from "../../components/Contact";
 import Technologies from "../../components/Technologies";
 import ProviderToast from "../../components/Toast";
+import Projects from "../../components/Projects";
+import AnimateDisplay from "../../components/AnimationDisplay"
+import BackToTop from "../../components/ButtonToTop"
 
 // -- Json
 import configPage from "../../json/page.config.json"
@@ -13,7 +16,6 @@ import configPage from "../../json/page.config.json"
 import style from "./style.module.scss";
 import ContactForm from "../../components/ContactForm";
 import Experience from "../../components/Experience";
-import Formation from "../../components/Formation";
 import Title from "../../components/Title";
 import ButtonToTop from "../../components/ButtonToTop";
 
@@ -33,12 +35,12 @@ function Portifolio(){
             {/** Main section */}
             <section className="pt-5">
                 <Container className={style.header}>
-                    <Row>
+                    <Row className="mb-4">
                         <Col  className={`d-flex flex-column justify-content-between ${style.header__boxTitle}`} sm={5}>
                             <h1 className={`${style.header__title__name} titleColor`} style={{fontWeight:"bold"}}>{configPage.presentation}</h1>
                             <h1 className={`${style.header__title} titleColor`} style={{fontWeight:"bold"}}>{configPage.title}</h1>
                             <p className={style.header__title__sub}> A mais de {(new Date().getFullYear()-2020)} anos <span className={style.textGradient}>transformando ideias criativas em  experiências digitais</span>  inovadoras para o mundo <br /> online e além 💫</p>
-                            <Col className="mt-4" sm={12}>
+                            <Col className="mt-1" sm={12}>
                                 <Contact />
                             </Col>
                         </Col>
@@ -57,20 +59,23 @@ function Portifolio(){
                     <Technologies/>
                 </Container>
             </section>
-            
-            {/** About me section */}
-            <section id="moreabout">
+       
+       
+            {/** Projects section */}
+            <section id="technologies" className="pb-5">
                 <Container className={style.technologies}>
-                    <AboutMe />
+                    <Title title={"Projetos Pessoais"} subTitle={"Projetos desenvolvidos para aprimorar habilidades."}/>
+                    <Projects/>
                 </Container>
             </section>
+       
              
             {/** My Experience and Formation section */}
-            <section id="ExperienceAndFormation">
+            <section id="AboutMe&Experience">
                 <Container className={style.technologies}>
-                <Title title={"Expêriencias & Formações"} subTitle={"Minhas expêriencia no mercado de trabalho e minhas formações academicas"}/>
-                    <Row className="d-flex ">
-                        <Experience /> {/** & **/} <Formation />
+                    <Title title={"Sobre mim"} subTitle={"Um pouco sobre mim e minhas expêriencia no mercado de trabalho"}/>
+                    <Row className="d-flex justify-content-center">
+                        <Experience /> {/** & **/} <AboutMe />
                     </Row>
                 </Container>
             </section>
@@ -83,7 +88,7 @@ function Portifolio(){
             </section>
             
             {/** Button to top */}
-            <ButtonToTop />
+            <BackToTop />
              
             <div className={`p-5 ${style.divBackgroundGradient}`} />
         </>

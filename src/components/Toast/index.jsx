@@ -39,11 +39,9 @@ export const Alert = (message , type) => {
   
     switch (type){
     case "success":
-      playAlert("success");
       toast.success(message, option);
       break;
     case "error":
-      playAlert("error");
       toast.error(message, option);
       break;
     }

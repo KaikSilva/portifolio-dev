@@ -1,26 +1,29 @@
 // -- Components
+import { Row } from 'react-bootstrap';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
+import {FiArrowUpRight} from 'react-icons/fi'
+import styles from "./style.module.scss";
 
 function Contact(){
     return (
-        <>
-            <OverlayTrigger  overlay={<Tooltip id="tooltip-disabled">Linkedin</Tooltip>}>
-                <a className="me-3" target="_blank" href="https://www.linkedin.com/in/kaik-silva" rel="noreferrer" >
-                    <img width="30px" style={{filter:"invert(100%)"}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
+        <Row className='ps-1'>
+            <div  className='p-0' style={{width:"fit-content"}}>
+                <a className={styles.header__contact_link} target="_blank" href="https://www.linkedin.com/in/kaik-silva" rel="noreferrer" >
+                    Linkdin <FiArrowUpRight className={styles.header__contact_link__icons}/>
                 </a>
-            </OverlayTrigger>
-            <OverlayTrigger  overlay={<Tooltip id="tooltip-disabled">GitHub</Tooltip>}>
-                <a className="me-3" target="_blank" href="https://github.com/KaikSilva" rel="noreferrer" >
-                    <img width="30px" style={{filter:"invert(100%)"}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+            </div>
+            <div className='p-0' style={{width:"fit-content"}}>
+                <a className={styles.header__contact_link} target="_blank" href="https://github.com/KaikSilva" rel="noreferrer" >
+                    Github <FiArrowUpRight className={styles.header__contact_link__icons}/>
                 </a>
-            </OverlayTrigger>
-            <OverlayTrigger  overlay={<Tooltip id="tooltip-disabled">Whastapp</Tooltip>}>
-                <a className="me-3" target="_blank" href="https://wa.me/5519996693306" rel="noreferrer" >
-                    <img width="30px" style={{filter:"invert(100%)"}} src="https://cdn-icons-png.flaticon.com/512/733/733641.png" />
+            </div>
+            <div className='p-0' style={{width:"fit-content"}}>
+                <a className={styles.header__contact_link} target="_blank" href="https://wa.me/5519996693306" rel="noreferrer" >
+                    Whatsapp <FiArrowUpRight className={styles.header__contact_link__icons}/>
                 </a>
-            </OverlayTrigger>
-        </>
+            </div>
+        </Row>
     )
 }
 

@@ -1,0 +1,124 @@
+[
+    {
+        "title": "WordCounter",
+        "description": "Um contador de palavras simples que rastreia e exibe o número de palavras em tempo real para um texto inserido.",
+        "languages": [
+            {
+                "title": "React",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            }
+        ]
+    },
+    {
+        "title": "Catálogo de Produtos (API REST - PHP)",
+        "description": "API para gerenciar um catálogo de produtos, oferecendo funcionalidades de listagem, busca e detalhamento.",
+        "languages": [
+            {
+                "title": "PHP",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"
+            }
+        ]
+    },
+    {
+        "title": "TaskList",
+        "description": "Uma aplicação básica de lista de tarefas, permitindo aos usuários adicionar, marcar como concluída e excluir tarefas.",
+        "preview": "https://portfolio-gold-three-51.vercel.app/pomobile.png",
+        "languages": [
+            {
+                "title": "React",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            }
+        ]
+    },
+    {
+        "title": "Previsão do Tempo (API REST - PHP)",
+        "description": "API para fornecer informações de previsão do tempo, permitindo obter dados meteorológicos para uma localização.",
+        "languages": [
+            {
+                "title": "PHP",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"
+            }
+        ]
+    },
+    {
+        "title": "TipCalculator",
+        "description": "Uma calculadora simples que ajuda a calcular a gorjeta com base no valor da conta e na porcentagem escolhida.",
+        "languages": [
+            {
+                "title": "React",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            }
+        ]
+    },
+    {
+        "title": "PassGen",
+        "description": "Um gerador de senhas que cria senhas aleatórias, permitindo ajustes na complexidade conforme necessário.",
+        "languages": [
+            {
+                "title": "React",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            }
+        ]
+    },
+    {
+        "title": "Pomodoro Timer",
+        "description": "Um aplicativo Pomodoro em React para ajudar na gestão do tempo, alternando entre períodos de trabalho e descanso.",
+        "preview": "https://portfolio-gold-three-51.vercel.app/pomobile.png",
+        "languages": [
+            {
+                "title": "React",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            }
+        ]
+    },
+    {
+        "title": "GuestBook",
+        "description": "Um livro de visitas online onde os visitantes podem deixar mensagens simples e interativas.",
+        "languages": [
+            {
+                "title": "PHP",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"
+            }
+        ]
+    },
+    {
+        "title": "OnlineTimer",
+        "description": "Um cronômetro online com controles intuitivos para início, pausa e reinício.",
+        "languages": [
+            {
+                "title": "React",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            }
+        ]
+    },
+    {
+        "title": "CurrencyConverter",
+        "description": "Um conversor de moedas fácil de usar, permitindo aos usuários converter valores entre diferentes moedas.",
+        "languages": [
+            {
+                "title": "React",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            }
+        ]
+    },
+    {
+        "title": "ShoppingList",
+        "description": "Um aplicativo de lista de compras para gerenciar seus itens de compra, adicionando e removendo facilmente.",
+        "languages": [
+            {
+                "title": "React",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            }
+        ]
+    },
+    {
+        "title": "TicTacToe",
+        "description": "O clássico jogo da velha para dois jogadores competirem em uma partida rápida e divertida.",
+        "languages": [
+            {
+                "title": "React",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            }
+        ]
+    }
+]

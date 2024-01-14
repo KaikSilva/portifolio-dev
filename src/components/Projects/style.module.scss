@@ -1,0 +1,92 @@
+.projects{
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    &__project{
+        padding: 10px 15px 15px 15px;
+        border-radius: 10px;
+
+        &__header{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+
+            &__dot{
+                margin-right: 7px;
+            }
+
+            &__links{
+
+
+                &__item{
+                    margin-left: 7px;
+                    opacity: 0.5;
+                    transition: all 1 ease-in-out;
+
+                    &:hover{
+                        opacity: 10;
+                    }
+                }
+            }
+        }
+
+        &__body{
+
+            &__title{
+                font-size: 18px;
+                font-weight: 700;
+                margin-bottom: 5px;
+            }
+        
+            &__description{
+                font-size: 13px;
+                margin-bottom: 15px;
+            }
+
+            &__languages{
+                margin-bottom: 15px;
+
+                &__language{
+                    margin-right: 10px;
+
+                    &__icon{
+                        background: rgba(101, 117, 133, 0.16); 
+                        width: fit-content; 
+                        padding: 3px; 
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+
+        &__footer{
+            &__notpreview{
+                width: 100%;
+                height: 100px;
+                background: #0f1621;
+                border-radius: 10px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                svg{
+                    color: #15243d;
+                    font-size: 20px;
+                }
+            }
+            
+            &__preview{
+                width: 100%;
+                height: 100px;
+                border-radius: 10px;
+
+                background-position: center;
+                background-size: cover!important;
+
+                background: #0f1621;
+            }
+        }
+    }
+}

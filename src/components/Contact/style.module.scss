@@ -1,0 +1,18 @@
+.header{
+    &__contact_link{
+        color: var(--bs-primary);
+        text-decoration: none;
+        font-size: 15px;
+        margin-right: 10px;
+        font-weight: bold!important;
+        transition: all 0.3s ease-in-out;
+
+        &:hover{
+            color: #444cdd;
+        }
+
+        &__icons{
+            font-size: 20px;
+        }
+    }
+}

@@ -1,21 +1,18 @@
-import { useState, useEffect } from 'react';
-import './BotaoVoltarAoTopo.css'; // Arquivo de estilo CSS
+import React, { useState, useEffect } from 'react';
+import "./BotaoVoltarAoTopo.css"
 
-const ButtonToTop = () => {
+const BackToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const handleScroll = () => {
-    if (window.pageYOffset > 100) {
-      setIsVisible(true);
-    } else {
-      setIsVisible(false);
-    }
+    const scrolled = document.documentElement.scrollTop;
+    setIsVisible(scrolled > 300);
   };
-  
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: 'smooth',
     });
   };
 
@@ -27,10 +24,10 @@ const ButtonToTop = () => {
   }, []);
 
   return (
-    <div className={`botao-ao-topo ${isVisible ? 'visivel' : ''}`} onClick={scrollToTop}>
-      Voltar ao Topo
+    <div className={`back-to-top ${isVisible ? 'visible' : ''}`} onClick={scrollToTop}>
+      &#8679;
     </div>
   );
 };
 
-export default ButtonToTop;
+export default BackToTop;

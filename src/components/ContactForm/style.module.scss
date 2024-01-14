@@ -1,15 +1,12 @@
 .contactForm{
 
     &__title{
-        font-size:48px;
-        font-weight:900;
-        text-decoration:underline;
-        text-underline-offset:0.5rem;
-        text-decoration-thickness:8px;
-        text-decoration-color:#41d1ff;
+        font-size:40px;
+        font-weight:800;
         text-decoration-style:dashed;
         width: 100%;
         text-align: center;
+        line-height: 20px;
 
         &__sub{
             font-size: 18px;
@@ -22,7 +19,7 @@
         &__button{
             width: 100%;
             padding: 14px;
-            background: #8012b8;
+            background: #21262d;
             border-radius: 4px;
             border: initial;
             font-weight: 900;
